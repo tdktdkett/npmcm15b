@@ -27,5 +27,5 @@ end
 fet(:,4:6)=fet(:,4:6)*10;
 [klb]=kmeans(fet,3);
 plot3(data(1,klb==1),data(2,klb==1),data(3,klb==1),'r*');hold on;
-plot3(data(1,klb==2),data(2,klb==2),data(3,klb==2),'b*');title('本题结果可能不稳定，如果结果不对请老师重新运行一次试试！');
+plot3(data(1,klb==2),data(2,klb==2),data(3,klb==2),'b*');title('spacial');
 plot3(data(1,klb==3),data(2,klb==3),data(3,klb==3),'g*');
