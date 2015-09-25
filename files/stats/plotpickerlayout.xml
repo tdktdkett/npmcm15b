@@ -1,0 +1,96 @@
+<!-- Copyright 2011-2012 The MathWorks, Inc. -->
+<plotpicker version="2.0" resourcepath="com.mathworks.toolbox.stats.resources.RES_PlotPicker">
+<category name="resources:PlotPickerLayout.statsplots">
+<plotaction name="boxplot" description="resources:PlotPickerLayout.boxplot_description" function="boxplot" rule="resources:PlotPickerLayout.boxplot_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-boxplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-boxplot.png" visibility = "@(args) statsplotfunc( 'defaultshow','boxplot',[],args)">
+</plotaction>
+<plotaction name="ecdf" description="resources:PlotPickerLayout.ecdf_description" function="ecdf" rule="resources:PlotPickerLayout.ecdf_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-ecdf.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-ecdf.png"  visibility = "@(args) statsplotfunc('defaultshow', 'ecdf',[],args)">
+</plotaction>
+<plotaction name="histfit" description="resources:PlotPickerLayout.histfit_description" function="histfit" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-histfit.png" rule="resources:PlotPickerLayout.histfit_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-histfit.png" visibility = "@(args) statsplotfunc('defaultshow','histfit',[],args)">
+</plotaction>
+<plotaction name="ksdensity" description="resources:PlotPickerLayout.ksdensity_description" function="ksdensity" rule="resources:PlotPickerLayout.ksdensity_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-ksdensity.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-ksdensity.png" visibility = "@(args) statsplotfunc('defaultshow','ksdensity',[],args)">
+</plotaction>
+<plotaction name="Normal probability plot" description="resources:PlotPickerLayout.probplot_description" function="probplot" rule="resources:PlotPickerLayout.probplot_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-probplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-probplot.png" visibility = "@(args) statsplotfunc('defaultshow','probplot',[],args)">
+</plotaction>
+<plotaction name="Weibull probability plot" description="resources:PlotPickerLayout.weibull_description" function="probplot" rule="resources:PlotPickerLayout.weibull_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-probplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-probplot.png" visibility = "@(args) statsplotfunc('defaultshow','weibull probability plot',[],args)" action = "@(varNames) statsplotfunc('defaultdisplay','weibull probability plot',varNames)">
+</plotaction>
+<plotaction name="qqplot" description="resources:PlotPickerLayout.qqplot_description" function="qqplot" rule="resources:PlotPickerLayout.qqplot_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-qqplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-qqplot.png" visibility = "@(args) statsplotfunc('defaultshow','qqplot',[],args)">
+</plotaction>
+<plotaction name="gscatter" description="resources:PlotPickerLayout.gscatter_description" function="gscatter" rule="resources:PlotPickerLayout.gscatter_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-gscatter.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-gscatter.png" visibility = "@(args) statsplotfunc('defaultshow','gscatter',[],args)">
+</plotaction>
+<plotaction name="hist3" description="resources:PlotPickerLayout.hist3_description" function="hist3" rule="resources:PlotPickerLayout.hist3_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-hist3.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-hist3.png" visibility = "@(args) statsplotfunc('defaultshow', 'hist3',[],args)">
+</plotaction>
+<plotaction name="scatterhist" description="resources:PlotPickerLayout.scatterhist_description" function="scatterhist" rule="resources:PlotPickerLayout.scatterhist_rule" 
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-scatterhist.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-scatterhist.png" visibility = "@(args) statsplotfunc('defaultshow','scatterhist',[],args)" action = "@(varNames)statsplotfunc('defaultdisplay','scatterhist',varNames,[])">
+</plotaction>
+<plotaction name="gplotmatrix" description="resources:PlotPickerLayout.gplotmatrix_description" function="gplotmatrix" rule="resources:PlotPickerLayout.gplotmatrix_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-gplotmatrix.gif" visibility = "@(args) statsplotfunc('defaultshow','gplotmatrix',[],args)">
+</plotaction>
+<plotaction name="parallelcoords" description="resources:PlotPickerLayout.parallelcoords_description" function="parallelcoords" rule="resources:PlotPickerLayout.parallelcoords_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-parallelcoords.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-parallelcoords.png" visibility = "@(args) statsplotfunc('defaultshow','parallelcoords',[],args)">
+</plotaction>
+<plotaction name="andrewsplot" description="resources:PlotPickerLayout.andrewsplot_description" function="andrewsplot" rule="resources:PlotPickerLayout.andrewsplot_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-andrewsplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-andrewsplot.png" visibility = "@(args) statsplotfunc('defaultshow','andrewsplot',[],args)">
+</plotaction>
+<plotaction name="glyphplot" description="resources:PlotPickerLayout.glyphplot_description" function="glyphplot" rule="resources:PlotPickerLayout.glyphplot_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-glyphplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-glyphplot.png" visibility = "@(args) statsplotfunc('defaultshow','glyphplot',[],args)">
+</plotaction>
+<plotaction name="Faces glyph plot" description="resources:PlotPickerLayout.facesglyphplot_description" function="glyphplot" rule="resources:PlotPickerLayout.facesglyphplot_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-glyphplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-glyphplot.png" visibility = "@(args) statsplotfunc('defaultshow','faces glyph plot',[],args)" action = "@(varNames) statsplotfunc('defaultdisplay','faces glyph plot',varNames)">
+</plotaction>
+<plotaction name="controlchart" description="resources:PlotPickerLayout.controlchart_description" function="controlchart" rule="resources:PlotPickerLayout.controlchart_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-controlchart.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-controlchart.png" visibility = "@(args) statsplotfunc('defaultshow','controlchart',[],args)">
+</plotaction>
+<plotaction name="dendrogram" description="resources:PlotPickerLayout.dendrogram_description" function="dendrogram" rule="resources:PlotPickerLayout.dendrogram_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-dendrogram.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-dendrogram.png" visibility = "@(args) statsplotfunc('defaultshow','dendrogram',[],args)">
+</plotaction>
+<plotaction name="stats-residproblm" description="resources:PlotPickerLayout.residproblm_description" shortdescription="resources:PlotPickerLayout.residproblm_shortdescription" function="plotResiduals" methodof="LinearModel" rule="resources:PlotPickerLayout.residproblm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-probplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-probplot.png" visibility = "@(args) statsplotfunc('defaultshow','residprob lm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals probplot',obj)">
+</plotaction>
+<plotaction name="stats-residhistlm" description="resources:PlotPickerLayout.residhistlm_description" shortdescription="resources:PlotPickerLayout.residhistlm_shortdescription" function="plotResiduals" methodof="LinearModel" rule="resources:PlotPickerLayout.residhistlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-hist.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-hist.png" visibility = "@(args) statsplotfunc('defaultshow','residhist lm',[],args)">
+</plotaction>
+<plotaction name="stats-residfittedlm" description="resources:PlotPickerLayout.residfittedlm_description" shortdescription="resources:PlotPickerLayout.residfittedlm_shortdescription" function="plotResiduals" methodof="LinearModel" rule="resources:PlotPickerLayout.residfittedlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-scatter.gif" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-scatter.gif" visibility = "@(args) statsplotfunc('defaultshow','residfitted lm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals fitted',obj)">>
+</plotaction>
+<plotaction name="stats-slicelm" description="resources:PlotPickerLayout.slicelm_description" shortdescription="resources:PlotPickerLayout.slicelm_shortdescription" function="plotSlice" methodof="LinearModel" rule="resources:PlotPickerLayout.slicelm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-slice.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-slice.png" visibility = "@(args) statsplotfunc('defaultshow','slice lm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','slice',obj)">
+</plotaction>
+<plotaction name="stats-effects" description="resources:PlotPickerLayout.effects_description" shortdescription="resources:PlotPickerLayout.effects_shortdescription" function="plotEffects" methodof="LinearModel" rule="resources:PlotPickerLayout.effects_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-effects.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-effects.png" visibility = "@(args) statsplotfunc('defaultshow','effects',[],args)">
+</plotaction>
+<plotaction name="stats-residprobnlm" description="resources:PlotPickerLayout.residprobnlm_description" shortdescription="resources:PlotPickerLayout.residprobnlm_shortdescription" function="plotResiduals" methodof="NonLinearModel" rule="resources:PlotPickerLayout.residprobnlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-probplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-probplot.png" visibility = "@(args) statsplotfunc('defaultshow','residprob nlm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals probplot',obj)">
+</plotaction>
+<plotaction name="stats-residhistnlm" description="resources:PlotPickerLayout.residhistnlm_description" shortdescription="resources:PlotPickerLayout.residhistnlm_shortdescription" function="plotResiduals" methodof="NonLinearModel" rule="resources:PlotPickerLayout.residhistnlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-hist.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-hist.png" visibility = "@(args) statsplotfunc('defaultshow','residhist nlm',[],args)">
+</plotaction>
+<plotaction name="stats-residfittednlm" description="resources:PlotPickerLayout.residfittednlm_description" shortdescription="resources:PlotPickerLayout.residfittednlm_shortdescription" function="plotResiduals" methodof="NonLinearModel" rule="resources:PlotPickerLayout.residfittednlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-scatter.gif" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-scatter.gif" visibility = "@(args) statsplotfunc('defaultshow','residfitted nlm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals fitted',obj)">>
+</plotaction>
+<plotaction name="stats-slicenlm" description="resources:PlotPickerLayout.slicenlm_description" shortdescription="resources:PlotPickerLayout.slicenlm_shortdescription" function="plotSlice" methodof="NonLinearModel" rule="resources:PlotPickerLayout.slicenlm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-slice.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-slice.png" visibility = "@(args) statsplotfunc('defaultshow','slice nlm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','slice',obj)">
+</plotaction>
+<plotaction name="stats-residprobglm" description="resources:PlotPickerLayout.residprobglm_description" shortdescription="resources:PlotPickerLayout.residprobglm_shortdescription" function="plotResiduals" methodof="GeneralizedLinearModel" rule="resources:PlotPickerLayout.residprobglm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-probplot.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-probplot.png" visibility = "@(args) statsplotfunc('defaultshow','residprob glm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals probplot',obj)">
+</plotaction>
+<plotaction name="stats-residhistglm" description="resources:PlotPickerLayout.residhistglm_description" shortdescription="resources:PlotPickerLayout.residhistglm_shortdescription" function="plotResiduals" methodof="GeneralizedLinearModel" rule="resources:PlotPickerLayout.residhistglm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-hist.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-hist.png" visibility = "@(args) statsplotfunc('defaultshow','residhist glm',[],args)">
+</plotaction>
+<plotaction name="stats-residfittedglm" description="resources:PlotPickerLayout.residfittedglm_description" shortdescription="resources:PlotPickerLayout.residfittedglm_shortdescription" function="plotResiduals" methodof="GeneralizedLinearModel" rule="resources:PlotPickerLayout.residfittedglm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-scatter.gif" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-scatter.gif" visibility = "@(args) statsplotfunc('defaultshow','residfitted glm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','residuals fitted',obj)">>
+</plotaction>
+<plotaction name="stats-sliceglm" description="resources:PlotPickerLayout.sliceglm_description" shortdescription="resources:PlotPickerLayout.sliceglm_shortdescription" function="plotSlice" methodof="GeneralizedLinearModel" rule="resources:PlotPickerLayout.sliceglm_rule"
+largeicon="/com/mathworks/toolbox/stats/resources/plottype-slice.png" smallicon="/com/mathworks/toolbox/stats/resources/plotpicker-slice.png" visibility = "@(args) statsplotfunc('defaultshow','slice glm',[],args)"  action = "@(obj) statsplotfunc('defaultdisplay','slice',obj)">
+</plotaction>
+
+</category>
+</plotpicker> 
